@@ -246,7 +246,7 @@ INSERT INTO `movie_trivia` (`movie_id`, `trivia`) VALUES
 
 CREATE TABLE `people` (
   `id` int(6) NOT NULL,
-  `stage_name` varchar(30) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Many people in the movie industry are known by short names',
+  `screen_name` varchar(30) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Many people in the movie industry are known by short names',
   `first_name` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
   `middle_name` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
   `last_name` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -258,7 +258,7 @@ CREATE TABLE `people` (
 -- Dumping data for table `people`
 --
 
-INSERT INTO `people` (`id`, `stage_name`, `first_name`, `middle_name`, `last_name`, `gender`, `image_name`) VALUES
+INSERT INTO `people` (`id`, `screen_name`, `first_name`, `middle_name`, `last_name`, `gender`, `image_name`) VALUES
 (2301, 'Captain America', 'Chris', 'Robert', 'Evans', 'Male', 'captain.png'),
 (2302, 'Captain Marvel', 'Brie', 'Sidone', 'Larson', 'Female', 'marvel.png'),
 (2303, 'Russo', 'Antony', '', 'Russo', 'Male', 'russo.png'),
